@@ -1,3 +1,4 @@
+import Header from './components/Header'
 import './globals.css'
 import { Inter } from 'next/font/google'
 
@@ -13,7 +14,15 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <meta content='width=device-width, initial-scale=1' name='viewport'></meta>
       <meta name='description' content={metadata.description}></meta>
-      <body className={inter.className}>{children}</body>
+      <body >
+        
+      {/*Header*/}
+       <Header/>
+
+        {children}
+        
+        
+        </body>
       <link rel='icon' href='/favicon.ico'></link>
     </html>
   )
