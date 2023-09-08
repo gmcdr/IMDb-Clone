@@ -3,6 +3,7 @@ import MenuItem from './MenuItem'
 import { AiFillHome } from '@react-icons/all-files/ai/AiFillHome'
 import { BsInfoCircleFill } from '@react-icons/all-files/bs/BsInfoCircleFill'
 import Link from 'next/link'
+import DarkModeSwitch from './DarkModeSwitch'
 
 export default function Header() {
   return (
@@ -18,7 +19,8 @@ export default function Header() {
           Icon={BsInfoCircleFill}/>
       </div>
 
-      <div className="div">
+      <div className="flex items-center space-x-5">
+        <DarkModeSwitch/>
         <Link href='/'>
         <h2 className='text-2xl'>
             <span className='font-bold bg-amber-500 py-1 px-2 rounded-lg mr-1'>IMDb</span>
