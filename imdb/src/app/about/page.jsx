@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div className='max-w-6xl mx-auto space-y-4'>
+    <div className='max-w-6xl mx-auto space-y-4 p-4'>
       <h1 className='text-2xl font-medium text-amber-500' >About</h1>
       <p>Welcome to IMDb, your ultimate destination for all things cinema and television! We are passionate about movies, TV shows, and the talented individuals who bring them to life, and we've created this platform to celebrate and explore the world of entertainment with you.
       </p>
