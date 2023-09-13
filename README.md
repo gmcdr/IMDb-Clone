@@ -1,3 +1,4 @@
+![screenshot](./screenshot/clone.png)
 ```markdown
 # Clone do IMDb com Next.js 13
 
